@@ -2,3 +2,7 @@ let myArray = [232,32,1,4,55,4,3,32,3,24,5,5,5,34,2,3,5,5365743,52,34,3,55,33,43
 
 // wrap this console.log within a loop and replace 0 with i
 console.log(myArray[0]);
+
+for (let i=0; i<=myArray.length-1; i++){
+    console.log(myArray[i])
+}

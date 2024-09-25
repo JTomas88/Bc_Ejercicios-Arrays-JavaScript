@@ -10,3 +10,5 @@ let tasks = [
 ];
 
 // Your code here
+let hechas = tasks.filter(tarea => tarea.done);
+console.log(hechas);
